@@ -1,0 +1,34 @@
+{
+  "name": "joe.js",
+  "version": "0.0.3",
+  "description": "Port of the popular .gitignore python magician",
+  "main": "./joe/joe.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cameres/joey.js.git"
+  },
+  "keywords": [
+    "gitignore",
+    "git",
+    "github",
+    "command line",
+    "cli"
+  ],
+  "author": "Connor Ameres <connorameres@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^2.6.0"
+  },
+  "bugs": {
+    "url": "https://github.com/cameres/joey.js/issues"
+  },
+  "bin" : {
+    "joe" : "joe/joe.js"
+  },
+  "homepage": "https://github.com/cameres/joey.js",
+  "devDependencies": {},
+  "preferGlobal": true
+}
